@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Neon&family=Ultra&family=Vina+Sans&display=swap');
+
+.hero{
+    width: 100%;
+    margin-left: 90px;
+    height: 80px; /*QUIZAS MALA PRACTICA*/
+
+}
+
+
+.name h1{
+    font-family: 'Ultra', serif;
+    font-size: 65px;
+    margin-bottom: 5px;
+
+}
+
+.name h2{
+    font-family: 'Ultra', serif;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.web{
+    color:#039db8;
+}
+
+.custom-shape-divider-top-1703101695 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1703101695 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 41px;
+}
+
+.custom-shape-divider-top-1703101695 .shape-fill {
+    fill: #FFFFFF;
+}

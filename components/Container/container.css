@@ -1,0 +1,92 @@
+.contenedor_global{
+    display: flex;
+    flex-direction: column;
+   
+}
+.container{
+    background-color: #fffffe;
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    margin-top: 200px;
+}
+.container img{
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.container p {
+    margin-top: 60px;
+    width: 600px;
+    line-height: 2.0; 
+    font-size: 18px;
+    color: black;
+}
+
+.tecnologias{
+    margin-top: px;
+    color: black;
+    background-color: #eff0f3;
+    margin-top: 0; 
+  padding-top: 0; 
+  border-top: none; 
+
+}
+
+.tecnologias p{
+    text-align: center;
+    color: #002a3d;
+    font-size:25px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 40px;
+}
+
+
+
+.tecnologias img{
+    width: 80px;
+    height:80px ;
+    border-radius: 20px;
+}
+
+.tecnologias img:hover{
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.img_tecnologias{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.img_tecnologias img{
+    margin-top: 20px;
+    gap: 80px;
+}
+
+
+
+
+
+/*EFECTO BORDE OVALADO*/
+.custom-shape-divider-top-1703101695 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1703101695 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 41px;
+}
+
+.custom-shape-divider-top-1703101695 .shape-fill {
+    fill: #FFFFFF;
+}
