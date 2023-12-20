@@ -1,6 +1,7 @@
 .contenedor_global{
     display: flex;
     flex-direction: column;
+  
    
 }
 .container{
@@ -9,6 +10,8 @@
     gap: 250px;
     justify-content: center;
     margin-top: 200px;
+    height: 400px; /* MALA PRACTICA QUIZAS*/
+  
 }
 .container img{
     margin-top: 60px;
@@ -31,7 +34,8 @@
     background-color: #eff0f3;
     margin-top: 0; 
   padding-top: 0; 
-  border-top: none; 
+  border-top: none;
+  height: 260px; 
 
 }
 

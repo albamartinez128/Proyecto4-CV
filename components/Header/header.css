@@ -8,6 +8,8 @@
     margin-right: 60px;
 }
 
+
+
 .list_menu{
     display: flex;
     padding: 0;
@@ -23,6 +25,7 @@
     cursor: pointer;
     transition: 0.3s ease; 
     padding: 8px;
+    letter-spacing: 2px;
 
    
 
