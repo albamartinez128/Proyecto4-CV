@@ -59,4 +59,83 @@ const proyectos = [
   },
 ];
 
-export default proyectos;
+const templateProyectos = () => {
+  return `
+  <section id="proyectos">
+  <h3>MIS PROYECTOS</h3>
+  ${proyectos.map((proyecto) => {
+    return `
+    <article>
+      <h2>Nombre: ${proyecto.name}</h2>
+      <h3>${proyecto.subname}</h3>
+      <img src="${proyecto.imagen}">
+      <p>Descripción del proyecto: ${proyecto.text}</p>
+      <p><a href=" ${proyecto.linkproyect}"> <img src="img/iconoweb.png"></a></p>
+      <p>Tencología: <img src=" ${proyecto.tecnologia1}"></p>
+      <p>Tecnología:<img src=" ${proyecto.tecnologia2}"></p>
+      <p>Tecnología:<img src=" ${proyecto.tecnologia3}"></p>
+    </article>
+    
+    `;
+  })}
+  
+  </section>
+  
+  
+  `;
+};
+
+export const printProyectos = () => {
+  document.querySelector("main").innerHTML = templateProyectos();
+};
+
+export default templateProyectos;
+
+// const template = () => {
+//   return `
+//   <section class="proyectos">
+//     <div class="titulo_proyectos">
+//     <h1>MY PROJECTS</h1>
+//     </div>
+//     <div class="proyectos_container slide-in-fwd-center">
+//   ${proyectos
+//     .map((proyecto) => {
+//       const tecnologias = [
+//         proyecto.tecnologia1,
+//         proyecto.tecnologia2,
+//         proyecto.tecnologia3,
+//         proyecto.tecnologia4,
+//       ].filter(Boolean);
+//       return `
+//     <div class="contain_proyects scale-up-ver-top">
+//     <div class="proyect_imagen">
+//     <img src="${proyecto.imagen}" loading="lazy" class="perfil"/>
+//     </div>
+//       <div class="contain_proyects_text">
+//       <h3> ${proyecto.name}</h3>
+//       <h3>${proyecto.subname}</h3>
+//       <p>${proyecto.text}</p>
+//       <div class="tecnologias">
+//       ${tecnologias
+//         .map(
+//           (tecnologia, index) =>
+//             `<img src="${tecnologia}" class="tecnologia${index + 1}">`
+//         )
+//         .join("")}
+//     </div>
+//       <a href="${
+//         proyecto.linkproyect
+//       }"><img src="img/iconoweb.png" class="linkproyect"style="width: 25px; height: auto;"></a>
+//       </div>
+//       </div>
+//       `;
+//     })
+//     .join("")}
+//     </div>
+//     </section>
+//     `;
+// };
+
+// export const printTemplate = () => {
+//   document.querySelector("main").innerHTML = template();
+// };

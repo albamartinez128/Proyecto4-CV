@@ -26,15 +26,19 @@
     transition: 0.3s ease; 
     padding: 8px;
     letter-spacing: 2px;
+  
+}
 
-   
-
-    
+.list_menu a{
+    font-weight: 600;
+    ;
+    color: white;
 }
 
 .list_menu li:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
     color: white;
     border-radius: 20px;
+     background-color: rgb(201, 197, 192);
   
 }

@@ -42,7 +42,7 @@
 .tecnologias p{
     text-align: center;
     color: #002a3d;
-    font-size:25px;
+    font-size:20px;
     font-weight: 700;
     letter-spacing: 5px;
     margin-top: 40px;
@@ -51,8 +51,8 @@
 
 
 .tecnologias img{
-    width: 80px;
-    height:80px ;
+    width: 60px;
+    height:60px ;
     border-radius: 20px;
 }
 
@@ -71,7 +71,43 @@
 }
 
 
+.button_cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 240px;
+    border-radius: 20px;
+    padding: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(201, 197, 192);
+    font-size: 15px;
 
+    font-size: 14px;
+    
+}
+
+.button_cv a{
+    color:   #002a3d;;
+  
+    font-family: 'Ultra', serif;
+    letter-spacing: 3px;
+}
+.bloque_cv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 30px;
+}
+.bloque_cv img{
+    width: 35px;
+    height: 35px;
+}
 
 
 /*EFECTO BORDE OVALADO*/
@@ -94,3 +130,4 @@
 .custom-shape-divider-top-1703101695 .shape-fill {
     fill: #FFFFFF;
 }
+

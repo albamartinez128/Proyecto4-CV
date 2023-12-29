@@ -12,6 +12,7 @@
     font-size: 25px;
     font-family: 'Ultra', serif;
     letter-spacing: 3px;
+    margin-top: 50px;
 }
 
 
@@ -19,6 +20,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 25px;
 }
 .iconos_redes img {
     margin: 20px 20px;
@@ -26,6 +28,11 @@
     height: 35px;
     object-fit: cover;
     
+}
+
+.iconos_rrss{
+    background-color: rgb(176, 171, 164);
+    border-radius: 50px;
 }
 
 .field{

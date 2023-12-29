@@ -7,9 +7,9 @@ const container = () => {
     <div class="container">
     <img src="/assets/alba.jpeg" alt="img_alba">
     <p>
-    Mi nombre es Alba, graduada en Periodismo y Marketing Digital.
-    Durante mis primeros años de carrera tuve la oportunidad de trabajar en el sector de la comunicación. Fue en ese momento cuando comencé a sentir curiosidad por el mundo del desarrollo web. <br><br>
-    Actualmente estoy estudiando un Master Full Stack en ThePower Business School. Ahora mismo todo mi crecimiento profesional e ilusión está puesto en el sector de la programación. </p>
+    Mi nombre es Alba, estudiante Full Stack en ThePower Business School y graduada en Periodismo y Marketing Digital.
+    Durante mis primeros años de carrera tuve la oportunidad de trabajar en el sector del marketing. Fue en ese momento cuando comencé a sentir curiosidad por el mundo del desarrollo web. <br><br>
+  Ahora mismo todo mi interés, crecimiento profesional e ilusión está puesto en la programación. </p>
     </div>
     
     <div class="tecnologias">
@@ -20,8 +20,14 @@ const container = () => {
     <img src="/assets/js.png" alt="js">
     </div>
     </div>
-
-
+  <div class="bloque_cv">
+  <img src="/assets/curriculum-vitae.png">
+    <button class="button_cv">
+    <a href="https://drive.google.com/file/d/1dlXTJP8gLr-lMwcRyqt7Oe8j2XFRRQrD/view?usp=drive_link">Curriculum Vitae</a>
+    </button>
+    <img src="/assets/computacion-en-la-nube.png">
+   </div> 
+    
     </div>
     `;
 };
